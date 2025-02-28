@@ -2,22 +2,22 @@
 
 /* Dark Mode Styling */
 :root {
-    --bg-color: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+    --bg-color: linear-gradient(135deg, #a8e6cf 0%, #dcedc1 100%);
     --container-bg: rgba(255, 255, 255, 0.9);
     --text-color: #333;
-    --header-color: #8e44ad;
-    --row-hover: rgba(142, 68, 173, 0.1);
-    --row-even: rgba(142, 68, 173, 0.05);
+    --header-color: #4caf50;
+    --row-hover: rgba(76, 175, 80, 0.1);
+    --row-even: rgba(76, 175, 80, 0.05);
     --border-color: #e0e0e0;
 }
 
 .dark-mode {
-    --bg-color: linear-gradient(135deg, #243B55 0%, #141E30 100%);
+    --bg-color: linear-gradient(135deg, #1b5e20 0%, #004d40 100%);
     --container-bg: rgba(30, 30, 30, 0.9);
     --text-color: #e0e0e0;
-    --header-color: #bb86fc;
-    --row-hover: rgba(187, 134, 252, 0.2);
-    --row-even: rgba(187, 134, 252, 0.05);
+    --header-color: #81c784;
+    --row-hover: rgba(205, 220, 57, 0.2);
+    --row-even: rgba(205, 220, 57, 0.05);
     --border-color: #444;
 }
 
@@ -64,7 +64,7 @@ th, td {
 }
 
 th {
-    background: linear-gradient(to right, #8e44ad, #9b59b6);
+    background: linear-gradient(to right, #4caf50, #66bb6a);
     color: white;
     position: sticky;
     top: 0;
@@ -188,7 +188,7 @@ td:last-child {
 .search-box {
     padding: 10px 15px;
     width: 50%;
-    border: 2px solid #8e44ad;
+    border: 2px solid #4caf50;
     border-radius: 25px;
     font-family: 'Quicksand', sans-serif;
     font-size: 1rem;
@@ -198,12 +198,12 @@ td:last-child {
 }
 
 .search-box:focus {
-    border-color: #9b59b6;
-    box-shadow: 0 0 8px rgba(142, 68, 173, 0.4);
+    border-color: #66bb6a;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.4);
 }
 
 .clear-button {
-    background: linear-gradient(to right, #8e44ad, #9b59b6);
+    background: linear-gradient(to right, #4caf50, #66bb6a);
     color: white;
     border: none;
     border-radius: 20px;
@@ -216,7 +216,7 @@ td:last-child {
 }
 
 .clear-button:hover {
-    background: linear-gradient(to right, #7d3c98, #8e44ad);
+    background: linear-gradient(to right, #388e3c, #4caf50);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -265,11 +265,11 @@ td:last-child {
     width: 16px;
 }
 
-input:checked + .slider {
-    background-image: linear-gradient(to right, #8e44ad, #9b59b6);
+.theme-switch input:checked + .slider {
+    background-image: linear-gradient(to right, #4caf50, #66bb6a);
 }
 
-input:checked + .slider:before {
+.theme-switch input:checked + .slider:before {
     transform: translateX(22px);
 }
 

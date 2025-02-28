@@ -1,4 +1,3 @@
-
 // Main application script
 document.addEventListener("DOMContentLoaded", function() {
     // App state
@@ -110,19 +109,34 @@ document.addEventListener("DOMContentLoaded", function() {
     
     function searchBugs() {
         const searchTerm = searchInput.value.toLowerCase().trim();
+        let filteredBugs = allBugs;
         
-        if (searchTerm === "") {
-            displayBugs(allBugs);
-            return;
+        if (searchTerm !== "") {
+            const searchTerms = searchTerm.split(" ").filter(term => term.length > 0);
+            filteredBugs = allBugs.filter(bug => {
+                const bugData = `${bug.name} ${bug.location} ${bug.timeOfDay} ${bug.igTime}`.toLowerCase();
+                return searchTerms.every(term => bugData.includes(term));
+            });
         }
         
-        const filteredBugs = allBugs.filter(bug => 
-            bug.name.toLowerCase().includes(searchTerm) ||
-            bug.location.toLowerCase().includes(searchTerm) ||
-            bug.timeOfDay.toLowerCase().includes(searchTerm)
-        );
-        
         displayBugs(filteredBugs);
+        
+        // Show/hide no results message
+        const noResultsMsg = document.getElementById("no-results") || createNoResultsElement();
+        if (filteredBugs.length === 0 && searchTerm !== "") {
+            noResultsMsg.style.display = "block";
+            noResultsMsg.textContent = `No bugs found matching "${searchInput.value}"`;
+        } else {
+            noResultsMsg.style.display = "none";
+        }
+    }
+    
+    function createNoResultsElement() {
+        const noResults = document.createElement("div");
+        noResults.id = "no-results";
+        noResults.style.cssText = "text-align: center; padding: 20px; color: #666; display: none;";
+        tableBody.parentNode.insertBefore(noResults, tableBody.nextSibling);
+        return noResults;
     }
     
     // Event setup
