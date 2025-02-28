@@ -1,0 +1,236 @@
+[
+  {
+    "name": "Ancient Amber Beetle",
+    "location": "Bahari Bay",
+    "igTime": "6:00 AM to 6:00 AM",
+    "timeOfDay": "All day\r"
+  },
+  {
+    "name": "Azure Stonehopper",
+    "location": "Bahari Bay",
+    "igTime": "6:00 AM to 6:00 AM",
+    "timeOfDay": "All day\r"
+  },
+  {
+    "name": "Bahari Bee",
+    "location": "Bahari Bay",
+    "igTime": "6:00 AM to 6:00 AM",
+    "timeOfDay": "All day\r"
+  },
+  {
+    "name": "Bahari Crab",
+    "location": "Bahari Bay",
+    "igTime": "6:00 AM to 6:00 AM",
+    "timeOfDay": "All day\r"
+  },
+  {
+    "name": "Bahari Glowbug",
+    "location": "Bahari Bay",
+    "igTime": "6:00 PM to 3:00 AM",
+    "timeOfDay": "Evening, Night\r"
+  },
+  {
+    "name": "Brighteye Butterfly",
+    "location": "Bahari Bay",
+    "igTime": "3:00 AM to 6:00 PM",
+    "timeOfDay": "Morning, Day\r"
+  },
+  {
+    "name": "Brushtail Dragonfly",
+    "location": "Bahari Bay and Kilima Valley",
+    "igTime": "3:00 AM to 6:00 PM",
+    "timeOfDay": "Morning, Day\r"
+  },
+  {
+    "name": "Cerulean Cicada",
+    "location": "Bahari Bay",
+    "igTime": "3:00 AM to 6:00 PM",
+    "timeOfDay": "Morning, Day\r"
+  },
+  {
+    "name": "Common Bark Cicada",
+    "location": "Bahari Bay",
+    "igTime": "3:00 AM to 6:00 PM",
+    "timeOfDay": "Morning, Day\r"
+  },
+  {
+    "name": "Common Blue Butterfly",
+    "location": "Bahari Bay and Kilima Valley",
+    "igTime": "3:00 AM to 6:00 PM",
+    "timeOfDay": "Morning, Day\r"
+  },
+  {
+    "name": "Common Field Cricket",
+    "location": "Bahari Bay and Kilima Valley",
+    "igTime": "6:00 AM to 6:00 AM",
+    "timeOfDay": "All day\r"
+  },
+  {
+    "name": "Duskwing Butterfly",
+    "location": "Kilima Valley",
+    "igTime": "3:00 AM to 6:00 PM",
+    "timeOfDay": "Morning, Day\r"
+  },
+  {
+    "name": "Fairy Mantis",
+    "location": "Bahari Bay",
+    "igTime": "6:00 AM to 6:00 AM",
+    "timeOfDay": "All day\r"
+  },
+  {
+    "name": "Firebreathing Dragonfly",
+    "location": "Kilima Valley",
+    "igTime": "6:00 AM to 6:00 AM",
+    "timeOfDay": "All day\r"
+  },
+  {
+    "name": "Garden Ladybug",
+    "location": "Bahari Bay",
+    "igTime": "6:00 AM to 6:00 AM",
+    "timeOfDay": "All day\r"
+  },
+  {
+    "name": "Garden Leafhopper",
+    "location": "Kilima Valley",
+    "igTime": "6:00 AM to 6:00 AM",
+    "timeOfDay": "All day\r"
+  },
+  {
+    "name": "Garden Mantis",
+    "location": "Kilima Valley",
+    "igTime": "6:00 AM to 6:00 AM",
+    "timeOfDay": "All day\r"
+  },
+  {
+    "name": "Garden Millipede",
+    "location": "Kilima Valley",
+    "igTime": "6:00 AM to 6:00 AM",
+    "timeOfDay": "All day\r"
+  },
+  {
+    "name": "Garden Snail",
+    "location": "Bahari Bay",
+    "igTime": "6:00 AM to 6:00 AM",
+    "timeOfDay": "All day\r"
+  },
+  {
+    "name": "Golden Glory Bee",
+    "location": "Kilima Valley",
+    "igTime": "3:00 AM to 6:00 PM",
+    "timeOfDay": "Morning, Day\r"
+  },
+  {
+    "name": "Gossamer Veil Moth",
+    "location": "Kilima Valley",
+    "igTime": "6:00 PM to 3:00 AM",
+    "timeOfDay": "Evening, Night\r"
+  },
+  {
+    "name": "Hairy Millipede",
+    "location": "Bahari Bay",
+    "igTime": "6:00 AM to 6:00 AM",
+    "timeOfDay": "All day\r"
+  },
+  {
+    "name": "Inky Dragonfly",
+    "location": "Bahari Bay",
+    "igTime": "6:00 AM to 6:00 AM",
+    "timeOfDay": "All day\r"
+  },
+  {
+    "name": "Jewelwing Dragonfly",
+    "location": "Bahari Bay",
+    "igTime": "6:00 AM to 6:00 AM",
+    "timeOfDay": "All day\r"
+  },
+  {
+    "name": "Kilima Night Moth",
+    "location": "Bahari Bay and Kilima Valley",
+    "igTime": "6:00 PM to 3:00 AM",
+    "timeOfDay": "Evening, Night\r"
+  },
+  {
+    "name": "Leafstalker Mantis",
+    "location": "Bahari Bay",
+    "igTime": "6:00 AM to 6:00 AM",
+    "timeOfDay": "All day\r"
+  },
+  {
+    "name": "Lunar Fairy Moth",
+    "location": "Bahari Bay",
+    "igTime": "6:00 PM to 3:00 AM",
+    "timeOfDay": "Evening, Night\r"
+  },
+  {
+    "name": "Paper Lantern Bug",
+    "location": "Bahari Bay",
+    "igTime": "6:00 PM to 3:00 AM",
+    "timeOfDay": "Evening, Night\r"
+  },
+  {
+    "name": "Princess Ladybug",
+    "location": "Kilima Valley",
+    "igTime": "6:00 AM to 6:00 AM",
+    "timeOfDay": "All day\r"
+  },
+  {
+    "name": "Proudhorned Stag Beetle",
+    "location": "Kilima Valley",
+    "igTime": "6:00 AM to 6:00 AM",
+    "timeOfDay": "All day\r"
+  },
+  {
+    "name": "Rainbow-Tipped Butterfly",
+    "location": "South Bahari Bay",
+    "igTime": "3:00 AM to 6:00 PM",
+    "timeOfDay": "Morning, Day\r"
+  },
+  {
+    "name": "Raspberry Beetle",
+    "location": "Kilima Valley",
+    "igTime": "6:00 AM to 6:00 AM",
+    "timeOfDay": "All day\r"
+  },
+  {
+    "name": "Scintillating Centipede",
+    "location": "Bahari Bay",
+    "igTime": "6:00 AM to 6:00 AM",
+    "timeOfDay": "All day\r"
+  },
+  {
+    "name": "Spineshell Crab",
+    "location": "Bahari Bay",
+    "igTime": "6:00 AM to 6:00 AM",
+    "timeOfDay": "All day\r"
+  },
+  {
+    "name": "Spitfire Cicada",
+    "location": "Bahari Bay",
+    "igTime": "3:00 AM to 6:00 PM",
+    "timeOfDay": "Morning, Day\r"
+  },
+  {
+    "name": "Spotted Mantis",
+    "location": "Kilima Valley",
+    "igTime": "6:00 AM to 6:00 AM",
+    "timeOfDay": "All day\r"
+  },
+  {
+    "name": "Spotted Stinkbug",
+    "location": "Bahari Bay and Kilima Valley",
+    "igTime": "6:00 AM to 6:00 AM",
+    "timeOfDay": "All day\r"
+  },
+  {
+    "name": "Stripeshell Snail",
+    "location": "Bahari Bay",
+    "igTime": "6:00 PM to 3:00 AM",
+    "timeOfDay": "Evening, Night\r"
+  },
+  {
+    "name": "Vampire Crab",
+    "location": "Bahari Bay",
+    "igTime": "6:00 PM to 3:00 AM",
+    "timeOfDay": "Evening, Night"
+  }
+]

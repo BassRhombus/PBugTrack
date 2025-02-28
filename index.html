@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bug Tracker</h1>
+        
+        <!-- Add search box -->
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search for bugs..." class="search-box">
+            <button id="clearSearch" class="clear-button">Clear</button>
+        </div>
+        
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round"></div>
+            </label>
+            <span class="theme-label">Dark Mode</span>
+        </div>
+        
+        <div class="table-container">
+            <table id="bug-table">
+                <thead>
+                    <tr>
+                        <th>Bug</th>
+                        <th>Location</th>
+                        <th>IG Time</th>
+                        <th>Time of Day</th>
+                        <th>Caught?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data will be inserted here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
